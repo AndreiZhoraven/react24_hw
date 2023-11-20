@@ -1,0 +1,12 @@
+.component{
+  background: #e3e3e3;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+
+select{
+  display: block;
+  margin-bottom: 10px;
+}
