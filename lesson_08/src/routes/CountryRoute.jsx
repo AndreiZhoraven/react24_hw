@@ -6,7 +6,7 @@ import BtnNavigation from './../components/BtnNavigation/BtnNavigation'
 export default function CountryRoute() {
   return (
     <div>
-      <h3>Country Route</h3>
+      <h3>Country</h3>
       <Country />
       <BtnNavigation title={"Back to countries"} path={"/countries"} />
     </div>

@@ -6,7 +6,7 @@ import CitiesSelect from './../components/CitiesSelect/CitiesSelect'
 export default function HomeRoute() {
   return (
     <div>
-      <h3>Home Route</h3>
+      <h3>Home</h3>
       <Home />
       <CitiesSelect />
     </div>

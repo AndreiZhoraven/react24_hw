@@ -20,7 +20,7 @@ export default function CountriesList() {
     <div className="component">
       {countries.map((item) => (
         <li key={item.id}>
-          <Link to={String(item.id)}>{item.name}</Link>{" "}
+          <Link to={String(item.id)}>{item.name.official}</Link>{" "}
           <Button
             title="Delete country"
             clickFn={() => handleDelete(item.id)}
